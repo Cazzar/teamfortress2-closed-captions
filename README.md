@@ -1,3 +1,9 @@
+**TF2 had a few updates released since this resource was last updated.**  
+
+Some of the caption will not work due to an unknown to reason. There seems to be a lack of effort 
+from Valve to maintain and update the closecaptions for TF2 in recent patches.
+
+
 # Welcome to TF2 Closed Caption project
 
 The aim here is to bring the sweet goodness of closed captions to one of Valves' games.
@@ -36,6 +42,6 @@ This way your master branch can always be updated. While you are working on your
 To compile the language file, you need the Source SDK. A more detailed information can be found [here](https://developer.valvesoftware.com/wiki/Closed_Captions). 
 
 1. First install the Source SDK
-2. In a command shell run `[sdkroot]\bin\captioncompiler.exe "[your steam folder]\steamapps\[accoutn name]\team fortress 2\tf\resource\"`
+2. In a command shell run `[sdkroot]\bin\captioncompiler.exe "[your steam folder]\steamapps\[account name]\team fortress 2\tf\resource\"`
 3. Test your work in-game
 
