@@ -1,8 +1,9 @@
-**TF2 had a few updates released since this resource was last updated.**  
+**There have been a number of patches to TF2, since this resource was last updated**
 
-Some of the caption will not work due to an unknown to reason. There seems to be a lack of effort 
-from Valve to maintain and update the closecaptions for TF2 in recent patches.
+Some of the captions will not work due to an unknown reason. There seems to be a lack of effort 
+from Valve to maintain/update the closecaptions for TF2. 
 
+------
 
 # Welcome to TF2 Closed Caption project
 
@@ -18,6 +19,8 @@ Ryan Cerniglia [@ProgramZeta](https://github.com/ProgramZeta)
 
 ## Installtion
 
+**`txt` file needs to be compiled using the caption compiler from Source SDK**
+
 Installtion is simple.
 
 1. Go to the [tags section](https://github.com/rossengeorgiev/teamfortress2-closed-captions/tags) and download the latest ZIP file
@@ -25,6 +28,15 @@ Installtion is simple.
 3. Open TF2 and enable `closed captions` or `subtitltes` from `Options -> Audio`
 
 Thats it! :)
+
+## Compiling
+
+To compile the language file, you need the Source SDK. A more detailed information can be found [here](https://developer.valvesoftware.com/wiki/Closed_Captions). 
+
+1. First install the Source SDK
+2. In a command shell run `[sdkroot]\bin\captioncompiler.exe "[your steam folder]\steamapps\[account name]\team fortress 2\tf\resource\"`
+3. Test your work in-game
+
 
 ## Contribution
 
@@ -35,13 +47,5 @@ Remember to have just the `closecaption_[language].txt` and `closecaption_[langu
 It is adviseable, to do all development on a seperate branch and then merge into master.
 This way your master branch can always be updated. While you are working on your files.
 
-* Note: make sure files are encoded using `unicode`, also known as `utf-16le`
-
-## Compiling
-
-To compile the language file, you need the Source SDK. A more detailed information can be found [here](https://developer.valvesoftware.com/wiki/Closed_Captions). 
-
-1. First install the Source SDK
-2. In a command shell run `[sdkroot]\bin\captioncompiler.exe "[your steam folder]\steamapps\[account name]\team fortress 2\tf\resource\"`
-3. Test your work in-game
+* Important note: make sure `txt` files are encoded using `utf-16le`
 
